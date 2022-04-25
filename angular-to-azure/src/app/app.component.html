@@ -1,0 +1,12 @@
+<div class="form-group">
+  <label for="file">Choose File</label>
+  <input type="file"
+         id="file"
+         (change)="onFileChange($event)">
+</div>
+<div>
+  <h1>Response : {{res}}</h1>
+  <h1>Start Time : {{startTime}}</h1>
+  <h1>End Time : {{endTime}}</h1>
+  <h1>Total Time : {{totalTime}}</h1>
+</div>
